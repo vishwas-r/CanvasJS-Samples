@@ -8,3 +8,4 @@ Note: Please visit [CanvasJS](https://canvasjs.com/license/) for more info on Ca
 # Sample Included
 
   - [Angular](https://angular.io/) - CanvasJS works with all versions of Angular
+  - [React](https://reactjs.org/)
