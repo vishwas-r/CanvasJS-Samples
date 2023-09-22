@@ -7,6 +7,7 @@ Note: Please visit [CanvasJS license page](https://canvasjs.com/license/) for mo
 
 # Sample Included
 
-  - [Angular](https://angular.io/) - CanvasJS works with all versions of Angular
-  - [React](https://reactjs.org/)
+  - [Angular]([https://angular.io/](https://canvasjs.com/angular-charts/))
+  - [React]([https://reactjs.org/](https://canvasjs.com/react-charts/))
   - [Android](https://dev.to/vishwas/how-to-add-canvasjs-charts-to-your-android-app-2d36)
+  - Flutter
