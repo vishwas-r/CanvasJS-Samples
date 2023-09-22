@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./canvasjs.min.js"></script>
+    <script type="text/javascript">
+
+        window.onload = function () {
+            var chart = new CanvasJS.Chart("chartContainer", {
+                animationEnabled: true,
+                exportEnabled: true,
+                theme: "light1",
+                title:{
+                    text: "Column Chart in Flutter"
+                },
+                axisY: {
+                includeZero: true
+                },
+                data: [{
+                    type: "column",
+                    indexLabelFontColor: "#5A5757",
+                    indexLabelFontSize: 16,
+                    indexLabelPlacement: "outside",
+                    dataPoints: [
+                        { x: 10, y: 71 },
+                        { x: 20, y: 55 },
+                        { x: 30, y: 50 },
+                        { x: 40, y: 65 },
+                        { x: 50, y: 92, indexLabel: "\u2605 Highest" },
+                        { x: 60, y: 68 },
+                        { x: 70, y: 38 },
+                        { x: 80, y: 71 },
+                        { x: 90, y: 54 },
+                        { x: 100, y: 60 }
+                    ]
+                }]
+            });
+            chart.render();
+        }
+        </script>
+</head>
+<body>
+    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+</body>
+</html>
